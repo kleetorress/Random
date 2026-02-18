@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Creato Bold";
+    src: url("font/CreatoDisplay-ExtraBold.otf");
+}
+@font-face {
+    font-family: "Creato Regular";
+    src: url("font/CreatoDisplay-Regular.otf");
+}
+@font-face {
+    font-family: "Akira";
+    src: url("font/Akira\ Expanded\ Demo.otf");
+}
+@font-face {
+    font-family: "Creato Thin";
+    src: url("font/CreatoDisplay-Thin.otf");
+}
+body{
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+}
+#backgroundContainer{
+    position: relative;
+}
+#background{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+#bgimage{
+    position: absolute;
+    object-fit: cover;
+    height: 1000px;
+    width: 100%;    
+}
+nav{
+    position: absolute;;
+    padding: 20px;    
+    height: 10px;
+    width: 80%;
+    background-color: rgba(145, 145, 145, 0.1); 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+
+
+}
+#logo{
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+    
+}
+#logotext{
+    font-family: "Creato Bold";
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+#rolexLogo{
+   height:50px;
+   
+}
+#navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    gap: 70px;
+}
+.navbuttons{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#mainTextContainer{
+    position: absolute;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px;
+    width: 70%;
+    height: 200px;
+    top: 20%;
+    margin-left: 40px;
+}
+#mainText{
+    font-family: "Creato Regular";
+    font-size: 50px;
+    color: black;
+}
+#mainTextContainer2{
+    width: 60%;
+}
+#maintext2{
+    font-family: "Creato Regular";
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+#productheader{
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+#productHeader{
+    font-family: "Creato Thin";
+    font-size: 30px;
+    color: black;
+}
+#productContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+#showcaseContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.showcase{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 200, 200);
+    margin-top: 20px;
+}
