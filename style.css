@@ -110,6 +110,7 @@ nav{
 #AboutHeader{
     text-align: center;
     width: 100%;
+    position: relative;
 }
 #abouttext{
     font-family: "Creato Thin";  
@@ -237,4 +238,47 @@ footer{
     justify-content: center;
     background-color: rgb(200, 200, 200);
     margin-top: 20px;
+}
+@media screen and (max-width: 768px){
+    #mainTextContainer2{
+        width: 50%;
+    }
+    #mainText{
+        font-size: 3vh;
+        margin-bottom: 4vh;
+    }
+    #maintext2{
+        font-size: 2vh;
+    }
+    .navbuttons{
+        font-size: 2vh;
+    }
+    #navLinks{
+        gap: 2vh;
+    }
+    nav{
+        padding: 18px;    
+        height: 1vh;
+        margin-left: 5%;
+    }
+    #rolexLogo{
+        height:4vh;
+    }
+    #logotext{
+        font-size: 1.5vh;
+    }
+    #background{
+        height: 50vh;
+        width: 100%;
+    }
+    #bgimage{
+        height: 50vh;
+        width: 100%;
+    }
+    .learnmore{
+        margin-top: 8vh;
+    }
+    #aboutp2{
+    margin-bottom: 1.5vh;
+    }
 }
