@@ -14,6 +14,14 @@
     font-family: "Creato Thin";
     src: url("font/CreatoDisplay-Thin.otf");
 }
+@font-face {
+    font-family: "Philo";
+    src: url("font/Philosopher-Regular.ttf");
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url("font/Cinzel-Regular.otf");
+}
 body{
     margin: 0;
     background-color: rgb(235, 235, 235);
@@ -23,19 +31,19 @@ body{
 }
 #background{
     position: relative;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
 }
 #bgimage{
     position: absolute;
     object-fit: cover;
-    height: 1000px;
+    height: 100vh;
     width: 100%;    
 }
 nav{
     position: absolute;;
     padding: 20px;    
-    height: 10px;
+    height: 1vh;
     width: 80%;
     background-color: rgba(145, 145, 145, 0.1); 
     margin-left: 10%;
@@ -44,8 +52,6 @@ nav{
     border-radius: 40px;
     align-items: center;
     display: flex;
-
-
 }
 #logo{
     height:30px;
@@ -90,7 +96,7 @@ nav{
 }
 #mainText{
     font-family: "Creato Regular";
-    font-size: 50px;
+    font-size: 5vh;
     color: black;
 }
 #mainTextContainer2{
@@ -98,8 +104,96 @@ nav{
 }
 #maintext2{
     font-family: "Creato Regular";
-    font-size: 35px;
+    font-size: 4vh;
     color: rgb(255, 255, 255);
+}
+#AboutHeader{
+    text-align: center;
+    width: 100%;
+}
+#abouttext{
+    font-family: "Creato Thin";  
+}
+#aboutcontainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vh;
+}
+#about1container{
+    height: 30vh;
+    width: 55vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#aboutImage1{
+    height: 29vh;
+}
+#abouttextcontainer{
+    flex-direction: column;
+    display: flex;
+}
+#abouttextcontainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    height: 30vh;
+    margin-left: 1vh;
+}
+
+#abouttext1{
+    font-family: "Creato Thin";   
+    margin-top: 0;
+    font-size: 5vh;
+}
+#aboutp1{
+    color: rgb(48, 48, 48);
+    font-family: "Creato Thin"; 
+    margin:0;
+    font-size: 2vh;
+    text-align: left;
+}
+#aboutp2{
+    color: rgb(48, 48, 48);
+    font-family: "Creato Thin"; 
+    margin:0;
+    margin-bottom: 5vh;
+    font-size: 2vh;
+    text-align: left;
+}
+.learnmore{
+    color: #125b67;
+    font-size: 2vh;
+    text-decoration: none;
+    margin-top: 10vh;
+ 
+}
+#about2container{
+    height: 30vh;
+    width: 55vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#abouttextcontainer3{
+    height: 30vh;
+    margin-left: 1vh;
+}
+#build{
+    font-size: 5vh;
+    margin-top: 0;
+    font-family: "Creato Thin";   
+}
+.learnmore2{
+    color: #125b67;
+    font-size: 2vh;
+    text-decoration: none;
 }
 #productheader{
     height: 100px;
