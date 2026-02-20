@@ -244,41 +244,41 @@ footer{
         width: 50%;
     }
     #mainText{
-        font-size: 3vh;
-        margin-bottom: 4vh;
+        font-size: 24px;
+        margin-bottom: 35px;
     }
     #maintext2{
-        font-size: 2vh;
+        font-size: 17px;
     }
     .navbuttons{
-        font-size: 2vh;
+        font-size: 17px;
     }
     #navLinks{
-        gap: 2vh;
+        gap: 17px;
     }
     nav{
         padding: 18px;    
-        height: 1vh;
+        height: 10px;
         margin-left: 5%;
     }
     #rolexLogo{
-        height:4vh;
+        height:34px;
     }
     #logotext{
-        font-size: 1.5vh;
+        font-size: 13px;
     }
     #background{
-        height: 50vh;
+        height: 430px;
         width: 100%;
     }
     #bgimage{
-        height: 50vh;
+        height: 430px;
         width: 100%;
     }
     .learnmore{
-        margin-top: 8vh;
+        margin-top: 69px;
     }
     #aboutp2{
-        margin-bottom: 1.5vh;
+    margin-bottom: 13px;
     }
 }
