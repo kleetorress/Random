@@ -196,6 +196,98 @@ nav{
     font-size: 2vh;
     text-decoration: none;
 }
+#about3container{
+    height: 30vh;
+    width: 55vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#abouttextcontainer4{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 30vh;
+    margin-left: 1vh;
+}
+#kalbo{
+    font-size: 5vh;
+    margin-top: 0;
+    font-family: "Creato Thin";   
+}
+#aboutp3{
+    color: rgb(48, 48, 48);
+    font-family: "Creato Thin"; 
+    margin-bottom: 15vh;
+    margin-top: 0;
+    font-size: 2vh;
+    text-align: left;
+}
+.learnmore3{
+    color: #125b67;
+    font-size: 2vh;
+    text-decoration: none;
+}
+#about4container{
+    height: 30vh;
+    width: 55vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#about5container{
+    height: 30vh;
+    width: 55vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#LuxuryContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 30vh;
+    margin-left: 1vh;
+}
+#aboutp5{
+    color: rgb(48, 48, 48);
+    font-family: "Creato Thin"; 
+    margin-bottom: 6vh;
+    margin-top: 0;
+    font-size: 2vh;
+    text-align: left;   
+}
+#about6container{
+    height: 30vh;
+    width: 55vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#aboutImage6{
+    height: 20vh;
+    margin-top: 0;
+    
+}
+#aboutImage6Container{
+    height: 31vh;
+}
+#textcontainer6{
+    height: 30vh;
+    margin-left: 1vh;
+}
+#aboutp6{
+    color: rgb(48, 48, 48);
+    font-family: "Creato Thin"; 
+    margin-bottom: 8vh;
+    margin-top: 0;
+    font-size: 2vh;
+    text-align: left;  
+}
 #productheader{
     height: 100px;
     position: relative;
@@ -203,7 +295,6 @@ nav{
     align-items: center;
     justify-content: center;
     margin-top: 2%;
-
 }
 #productHeader{
     font-family: "Creato Thin";
@@ -280,5 +371,11 @@ footer{
     }
     #aboutp2{
     margin-bottom: 13px;
+    }
+    #aboutp5{
+        margin-bottom: 4vh; 
+    }
+    #aboutp6{
+        margin-bottom: 3vh; 
     }
 }
